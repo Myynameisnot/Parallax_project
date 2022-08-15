@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css">
+        <title>Parallax Effects</title>
+    </head>
+    <body>
+        <section class="wrapper">
+            <div class="container">
+                <div id="scene">
+                    <div class="gimp"><img src="./img/gimp.png" height="10%", width="auto"> </div>
+                    <div class="pencil"><img src="./img/pencil.png"></div>
+                    <div class="Photoshop"><img src="./img/Photoshop.png"></div>
+                    <div class="Strawberry"><img src="./img/Strawberry.png"> </div>
+                    <div class="Par_im"><img src="./img/Par_im.png"></div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <script>
+            var scene = document.getElementById('scene');
+            var parallaxInstance = new Parallax(scene);
+        </script>
+        <script src="./script.js"> 
+        </script>
+    </body>
+</html>

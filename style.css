@@ -1,0 +1,72 @@
+*
+{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.container
+{
+    position: absolute;
+    background: linear-gradient(#FFE5D0, #6DC3A9, #46947D);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container #scene .gimp img
+{
+    position: absolute;
+    top: 515px;
+    left: 1335px;
+    height: 600px;
+    width: auto;
+    transform: rotate(20deg);
+    object-fit: cover;
+}
+.container #scene .pencil img
+{
+    position: absolute;
+    top: -85px;
+    left: -50px;
+    height: 800px;
+    width: auto;
+    transform: rotate(-17.5deg);
+    object-fit: cover;
+}
+.container #scene .Photoshop img
+{
+    position: absolute;
+    top: 78px;
+    left: 1410px;
+    height: 427px;
+    width: auto;
+    transform: rotate(13deg);
+    object-fit: cover;
+}
+.container #scene .Strawberry img
+{
+    position: absolute;
+    top: 450px;
+    left: -25px;
+    height: 700px;
+    width: auto;
+    transform: rotate(-17deg);
+    object-fit: cover;
+}
+.container #scene .Par_im img
+{
+    position: absolute;
+    top: -195px;
+    left: 515.4px;
+    height: 900px;
+    width: auto;
+    transform: rotate(-10deg);
+    object-fit: cover;
+}
